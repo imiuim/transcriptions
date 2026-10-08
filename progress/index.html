@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>转录修复进度</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, "PingFang SC", sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; }
+  .card { background: #1e293b; border-radius: 16px; padding: 32px; width: 100%; max-width: 480px; box-shadow: 0 8px 32px rgba(0,0,0,.4); }
+  h1 { font-size: 18px; margin-bottom: 4px; }
+  .sub { color: #94a3b8; font-size: 13px; margin-bottom: 24px; }
+  .bar-bg { background: #334155; border-radius: 999px; height: 22px; overflow: hidden; }
+  .bar { background: linear-gradient(90deg, #22c55e, #4ade80); height: 100%; border-radius: 999px; transition: width .8s ease; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px; font-size: 12px; font-weight: 700; color: #052e16; min-width: 0; }
+  .nums { display: flex; justify-content: space-between; margin-top: 10px; font-size: 14px; }
+  .nums b { font-size: 22px; color: #4ade80; }
+  .cur { margin-top: 24px; background: #0f172a; border-radius: 10px; padding: 14px 16px; font-size: 14px; }
+  .cur .label { color: #94a3b8; font-size: 12px; margin-bottom: 4px; }
+  .part { color: #fbbf24; }
+  .foot { margin-top: 20px; color: #64748b; font-size: 12px; text-align: center; }
+  .done-badge { display: none; text-align: center; margin-top: 20px; background: #14532d; color: #4ade80; border-radius: 10px; padding: 12px; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Epic Web 长音频截断修复</h1>
+  <div class="sub">101 个长 P 正在按 30s 分段重新转录 + 翻译</div>
+  <div class="bar-bg"><div class="bar" id="bar">0%</div></div>
+  <div class="nums"><span>已完成 <b id="done">0</b> / <span id="total">101</span></span><span id="pct">0%</span></div>
+  <div class="cur">
+    <div class="label">当前处理</div>
+    <div id="current">启动中…</div>
+    <div class="label" style="margin-top:8px">所属部分</div>
+    <div class="part" id="part">—</div>
+  </div>
+  <div class="done-badge" id="doneBadge">✅ 全部修复完成，MD 已更新</div>
+  <div class="foot">更新于 <span id="updated">—</span> · 每 30 秒自动刷新</div>
+</div>
+<script>
+function load() {
+  fetch('progress.json?t=' + Date.now())
+    .then(r => r.json())
+    .then(p => {
+      const pct = Math.round(p.done / p.total * 100);
+      document.getElementById('bar').style.width = pct + '%';
+      document.getElementById('bar').textContent = pct >= 8 ? pct + '%' : '';
+      document.getElementById('done').textContent = p.done;
+      document.getElementById('total').textContent = p.total;
+      document.getElementById('pct').textContent = pct + '%';
+      document.getElementById('current').textContent = p.current;
+      document.getElementById('part').textContent = p.part;
+      document.getElementById('updated').textContent = p.updated;
+      if (p.done >= p.total) document.getElementById('doneBadge').style.display = 'block';
+    })
+    .catch(() => {});
+}
+load();
+setInterval(load, 30000);
+</script>
+</body>
+</html>
