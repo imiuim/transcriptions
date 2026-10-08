@@ -1,0 +1,6 @@
+{
+ "bvid": "BV1Q5411i7ki",
+ "slug": "Forms",
+ "title": "Refactoring UI - Forms",
+ "text": "Hey everyone, in this video we're going to be taking a look at form design. Forms are heavily used in SaaS applications, whether it be for an onboarding experience, submitting an email, or filling out your account settings like the example we're going to be refactoring here. Now, before we get into this UI, let's just break it down a bit to see what we're working with. So we pretty much have all of your standard inputs that you would expect from an account settings page. We have a variety of text inputs and drop downs for your basic account information."
+}

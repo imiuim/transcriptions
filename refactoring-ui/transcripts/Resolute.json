@@ -1,0 +1,6 @@
+{
+ "bvid": "BV17A4m157bp",
+ "slug": "Resolute",
+ "title": "Refactoring UI - Resolute",
+ "text": "Hey guys, welcome back to another edition of Refactoring UI. Today we're going to be taking a look at a submission from Aaron Francis. Aaron is the CTO at a company called Resolute. They're a property tax solution based out of Texas that work on behalf of homeowners. And what makes them so great is that they only get paid if the client gets paid, so I was really happy to help them out with this. Now Aaron was struggling with the design of their internal toolettes used by the agents and camps, particularly this properties page that you see here. We don't want to make any major structural changes here. It's important to respect the"
+}

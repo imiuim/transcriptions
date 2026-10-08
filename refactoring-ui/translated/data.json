@@ -1,0 +1,7 @@
+{
+ "bvid": "BV1wk4y1X791",
+ "slug": "data",
+ "title": "Refactoring UI - data",
+ "text": "Hey everyone, in this video we're going to be taking a look at a data heavy UI. So whether you're designing an internal application to review metrics or a product dashboard, data can be very complex and difficult to present in a very useful way. So for this example, we'll be taking a look at a dashboard for a fictional invoicing application. Now, before we begin making some changes, let's break this UI down a bit to see what we're working with. So at the top here, we have some overview data.",
+ "zh": "大家好，在本期视频中，我们将重点探讨一个数据密集型用户界面。无论你是设计用于查看指标的内部应用，还是产品仪表盘，数据都可能非常复杂，难以以一种有用的方式呈现。因此，在本例中，我们将分析一个虚构的发票管理应用的仪表盘。在开始进行修改之前，我们先来拆解一下这个用户界面，看看我们具体要处理哪些内容。首先，在顶部这里，有一些概览数据。"
+}

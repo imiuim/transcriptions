@@ -1,0 +1,6 @@
+{
+ "bvid": "BV1wk4y1X791",
+ "slug": "data",
+ "title": "Refactoring UI - data",
+ "text": "Hey everyone, in this video we're going to be taking a look at a data heavy UI. So whether you're designing an internal application to review metrics or a product dashboard, data can be very complex and difficult to present in a very useful way. So for this example, we'll be taking a look at a dashboard for a fictional invoicing application. Now, before we begin making some changes, let's break this UI down a bit to see what we're working with. So at the top here, we have some overview data."
+}

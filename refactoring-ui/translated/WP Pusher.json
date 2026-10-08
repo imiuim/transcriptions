@@ -1,0 +1,7 @@
+{
+ "bvid": "BV16H4y1a7vj",
+ "slug": "WP Pusher",
+ "title": "Refactoring UI - WP Pusher",
+ "text": "Hey guys, for this edition of Refactoring UI, we're going to be taking a look at a design submitted by our new friend from Denmark, Peter Soom. It's a tool called WP pusher and it's basically a tool that lets you deploy WordPress plugins and themes directly from sites like GitHub, Bitbucket, or GitLab, instead of copying files from an FTP. It's pretty cool. And the page we're going to be refactoring is this checkout page. At first glance, this page may seem like a pretty simple design with not a lot to improve on, but we think there's a lot of quick wins in this that could improve both the hierarchy and the overall emotions.",
+ "zh": "嘿，各位！在本期的 Refactoring UI 中，我们将要审视一个由来自丹麦的新朋友 Peter Soom 提交的设计。这是一个名为 WP pusher 的工具，它基本上可以让你直接从 GitHub、Bitbucket 或 GitLab 等网站部署 WordPress 插件和主题，而无需通过 FTP 复制文件。这相当酷。而我们要重构的页面就是这个 checkout 页面。乍一看，这个页面似乎设计得相当简单，没什么太多可以改进的地方，但我们认为其中有很多可以快速优化的点，能够同时改善页面层级结构和整体情感体验。"
+}

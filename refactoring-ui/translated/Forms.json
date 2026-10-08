@@ -1,0 +1,7 @@
+{
+ "bvid": "BV1Q5411i7ki",
+ "slug": "Forms",
+ "title": "Refactoring UI - Forms",
+ "text": "Hey everyone, in this video we're going to be taking a look at form design. Forms are heavily used in SaaS applications, whether it be for an onboarding experience, submitting an email, or filling out your account settings like the example we're going to be refactoring here. Now, before we get into this UI, let's just break it down a bit to see what we're working with. So we pretty much have all of your standard inputs that you would expect from an account settings page. We have a variety of text inputs and drop downs for your basic account information.",
+ "zh": "大家好，在本期视频中，我们将一起探讨表单设计。表单在 SaaS 应用中有着广泛的用途，无论是用于引导体验、提交电子邮件，还是填写账户设置（就像我们接下来要重构的这个例子一样）。现在，在深入这个 UI 之前，我们先简单分析一下它的构成。基本上，这里包含了你在账户设置页面中能看到的所有标准输入元素。我们有各种文本输入框和下拉菜单，用于填写基础的账户信息。"
+}

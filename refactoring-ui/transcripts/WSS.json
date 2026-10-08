@@ -1,0 +1,6 @@
+{
+ "bvid": "BV1Dz421R7Mz",
+ "slug": "WSS",
+ "title": "Refactoring UI - WSS",
+ "text": "Hey guys, welcome back to another edition of refactoring UI. Today we're going to be taking a look at a submission from Jonathan Hillis. Jonathan is the marketing director at wespeakstudent.com, which is a program that provides health benefits to students across Canada. And he wanted to help with the plan details page that lists all of the coverage options available to the students. So we're going to see what we can do to clean this up and make it look more professional. So let's get right into it. Now, the first thing I want to talk about is the scroll jacking on this page. Scroll jacking is when"
+}

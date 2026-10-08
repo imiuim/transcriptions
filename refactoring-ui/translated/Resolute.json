@@ -1,0 +1,7 @@
+{
+ "bvid": "BV17A4m157bp",
+ "slug": "Resolute",
+ "title": "Refactoring UI - Resolute",
+ "text": "Hey guys, welcome back to another edition of Refactoring UI. Today we're going to be taking a look at a submission from Aaron Francis. Aaron is the CTO at a company called Resolute. They're a property tax solution based out of Texas that work on behalf of homeowners. And what makes them so great is that they only get paid if the client gets paid, so I was really happy to help them out with this. Now Aaron was struggling with the design of their internal toolettes used by the agents and camps, particularly this properties page that you see here. We don't want to make any major structural changes here. It's important to respect the",
+ "zh": "大家好，欢迎回到新一期的《重构 UI》。今天我们要来看看 Aaron Francis 提交的一个案例。Aaron 是 Resolute 公司的首席技术官。这是一家位于德克萨斯州的房产税解决方案公司，专门为房主提供服务。他们最棒的一点是，只有在客户获得收益时他们才能拿到报酬，所以我非常乐意帮助他们。现在，Aaron 在为他们内部工具的设计上遇到了困难，这些工具由代理和团队使用，尤其是你们在这里看到的这个“房产”页面。我们不想在这里做任何重大的结构性改动。尊重现有的设计非常重要。"
+}

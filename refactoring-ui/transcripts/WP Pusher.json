@@ -1,0 +1,6 @@
+{
+ "bvid": "BV16H4y1a7vj",
+ "slug": "WP Pusher",
+ "title": "Refactoring UI - WP Pusher",
+ "text": "Hey guys, for this edition of Refactoring UI, we're going to be taking a look at a design submitted by our new friend from Denmark, Peter Soom. It's a tool called WP pusher and it's basically a tool that lets you deploy WordPress plugins and themes directly from sites like GitHub, Bitbucket, or GitLab, instead of copying files from an FTP. It's pretty cool. And the page we're going to be refactoring is this checkout page. At first glance, this page may seem like a pretty simple design with not a lot to improve on, but we think there's a lot of quick wins in this that could improve both the hierarchy and the overall emotions."
+}
